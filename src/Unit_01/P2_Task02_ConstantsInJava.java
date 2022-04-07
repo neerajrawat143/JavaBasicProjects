@@ -2,7 +2,7 @@ package Unit_01;
 
 public class P2_Task02_ConstantsInJava {
 	public static final int a=10;
-	final double pi=3.14
+	final double pi=3.14;
 	public static void main(String[] args) {
 		int b=1;
 		System.out.println(a);

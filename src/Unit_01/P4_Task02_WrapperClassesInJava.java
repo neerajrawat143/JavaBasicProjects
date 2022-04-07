@@ -12,7 +12,7 @@ public static void main(String[] args) {
 		//Converting int into Integer
 		int a=20;
 		
-		String s=""+a+"";
+		String s =""+a+"";
 		
 		//Converting int into Integer explicitly
 		Integer i=Integer.valueOf(a);
