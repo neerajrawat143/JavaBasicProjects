@@ -63,7 +63,18 @@ class QuestionsOnString {
 	}
 	
 	void stringEqualOrNot(String s1,String s2) {
-		System.out.print(s1.equals(s2));
+		  int flag=0;
+			System.out.println("\n");
+			for(int i=0;i<s1.length();i++)
+			{
+				if(s1.charAt(i)==s2.charAt(i))
+				flag++;	
+			}
+			if(flag==s1.length() && flag==s2.length())
+			    System.out.println("Strings are equal");
+			else
+				System.out.println("Strings are not equal");
+		}
 		
 		
 	}
