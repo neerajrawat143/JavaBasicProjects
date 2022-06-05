@@ -1,4 +1,4 @@
-package Unit_01;
+package Unit01;
 
 import java.util.Scanner;
 	/* Problem Statement: P7_SwitchStatements: 
@@ -9,7 +9,7 @@ import java.util.Scanner;
 		 d. When you pass 4 your program would print Not applicable 
 	 * */
 
-	public class P7_SwitchStatements {
+	public class P7_SwitchStatement {
 
 		public static void main(String[] args) {
 			 
