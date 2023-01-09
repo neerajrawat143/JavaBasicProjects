@@ -1,17 +1,12 @@
 package Unit_02;
 
-public class pl {
-  
+public class pl {  
 	public static void main(String[] agrs) {
-	Thre obj=new Thre();
-	
-		
-   }
-	
+	Thre obj=new Thre();		
+   }	
 }
 
-class on{
-	
+class on{	
 	on(){
 		System.out.println("Default 1");
 	}
@@ -21,19 +16,12 @@ class on{
 }
 
 class To extends on{
-	
-	/*To(){
-		
-		System.out.println("Default 2");
-	}*/
-	To(int x){
-		
+	To(int x){		
 		System.out.println("Parametirezed 2");
 	}
 }
 
-class Thre extends To{
-	
+class Thre extends To{	
 	Thre(){	
 		super(1);
 		System.out.println("Default 3");
